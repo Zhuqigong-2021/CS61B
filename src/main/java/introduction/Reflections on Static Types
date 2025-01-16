@@ -1,0 +1,11 @@
+Reflections on Static Typing
+
+The Good:
+  Catches certain types of errors, making it easier on the programmer to debug their code.
+  Type errors can (almost) never occur on the end user's computer.
+  Makes it easier to read and reason about code.
+  Code can run more efficiently,eg.no need to do expensive runtime type checks
+
+The Bad:
+  Code is more verbose.
+  Code is less general.There is a way around this in Java(generics)

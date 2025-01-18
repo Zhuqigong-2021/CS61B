@@ -1,6 +1,4 @@
-package DefiningUsingClasses;
-
-import org.w3c.dom.ls.LSOutput;
+package DefiningUsingClass;
 
 public class DogProblem {
 
@@ -17,7 +15,7 @@ public class DogProblem {
         return returnDogs;
     }
 
-    public static Dog[] arrayWithNoNulls(Dog[] dogs,int cnt){
+    public static Dog[] arrayWithNoNulls(Dog[] dogs, int cnt){
         Dog[] noNullDogs = new Dog[cnt];
         for(int i=0; i<cnt;i+=1){
             noNullDogs[i]=dogs[i];
@@ -25,7 +23,7 @@ public class DogProblem {
         return noNullDogs;
     }
     //Returns true if dogs[i] is larger than its four neighbours
-    public static boolean isBiggestOfFour(Dog[] dogs,int i){
+    public static boolean isBiggestOfFour(Dog[] dogs, int i){
         boolean isBiggest =true;
          for (int j =-2;j<=2;j+=1){
              int compareIndex = i+j;
@@ -43,7 +41,7 @@ public class DogProblem {
          return isBiggest;
     }
 
-    public static boolean validIndex(Dog[] dogs,int i){
+    public static boolean validIndex(Dog[] dogs, int i){
         if(i<0){
             return false;
         }

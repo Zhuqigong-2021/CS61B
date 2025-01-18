@@ -1,4 +1,4 @@
-package DefiningUsingClasses;
+package DefiningUsingClass;
 
 public class Dog {
     public int weightInPounds;
